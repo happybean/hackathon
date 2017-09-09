@@ -1,5 +1,5 @@
 {
-  "name": "picbot",
+  "name": "picbot-123",
   "version": "1.0.0",
   "description": "pic hackthon bot",
   "main": "index.js",
@@ -9,6 +9,7 @@
   "author": "Albert",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.4"
+    "express": "^4.15.4",
+    "linebot": "^1.3.0"
   }
 }
