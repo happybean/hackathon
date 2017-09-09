@@ -1,5 +1,5 @@
-var express = require('express');
 var linebot = require('linebot');
+var express = require('express');
 
 var bot = linebot({
 	channelId:'1534427640',
@@ -30,16 +30,4 @@ var server = app.listen(process.env.PORT || 8080, function() {
   var port = server.address().port;
   console.log('目前的port是', port);
 });
-
-const app = express();
-const linebotParser = bot.parser();
-app.post('/', linebotParser);
-
-var server = app.listen(process.env.PORT || 8080, function() {
-  var port = server.address().port;
-  console.log("App now running on port", port);
-});
-
-
-
 
