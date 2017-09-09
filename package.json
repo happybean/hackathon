@@ -1,10 +1,14 @@
-me": "linechat",
+{
+  "name": "picbot",
   "version": "1.0.0",
-  "description": "",
+  "description": "pic hackthon bot",
   "main": "index.js",
   "scripts": {
     "start": "node ."
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Albert",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
 }
